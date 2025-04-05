@@ -23,13 +23,6 @@
 - **Nguồn dữ liệu**: Tập dữ liệu: [Kaggle] Spam Mails Dataset (enron-1 folder of Spam Dataset). Tại: https://www.kaggle.com/datasets/venky73/spam-mails-dataset/data.
 - Tiền xử lý: Làm sạch văn bản, loại bỏ stopwords, vector hóa với TF-IDF hoặc Word Embedding (Word2Vec, GloVe).
 
-📈 Kết quả (Tóm tắt)
-
-Mô hình	Accuracy	Precision	Recall	F1-Score	
-FNN	    0.98	    ----	    ----	  0.98	
-CNN    	0.97	    ----	    ---- 	  ----
-RNN	    0.87	    ----	    ----	  0.92
-LSTM	  0.89	    ----	    ----	  0.92
 
 📚 Thư viện sử dụng
 TensorFlow
