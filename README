@@ -1,1 +1,50 @@
+# 📧 Spam Detection using Deep Learning Models
 
+## 🔍 Giới thiệu
+
+Đây là repo chứa mã nguồn và tài liệu của bài nghiên cứu **“So sánh hiệu quả của các mô hình học sâu CNN, RNN, LSTM và FNN trong việc phát hiện thư rác (spam)”**. Mục tiêu của nghiên cứu là đánh giá hiệu suất của các kiến trúc mạng nơ-ron khác nhau trong việc phân loại email thành **spam** và **ham** (không phải spam), từ đó đưa ra cái nhìn toàn diện về khả năng ứng dụng của từng mô hình trong các bài toán xử lý ngôn ngữ tự nhiên.
+
+## 🧠 Các mô hình được so sánh
+
+- **FNN (Feedforward Neural Network)** – Mạng nơ-ron truyền thẳng cơ bản, hoạt động như một baseline.
+- **CNN (Convolutional Neural Network)** – Mạng tích chập thường dùng cho hình ảnh, nhưng có thể khai thác tốt các pattern trong văn bản.
+- **RNN (Recurrent Neural Network)** – Mạng hồi tiếp, phù hợp với dữ liệu chuỗi như văn bản.
+- **LSTM (Long Short-Term Memory)** – Biến thể của RNN, khắc phục hiện tượng quên dài hạn, rất hiệu quả trong xử lý ngôn ngữ tự nhiên.
+
+## 📊 Mục tiêu
+
+- So sánh các mô hình về:
+  - **Độ chính xác (Accuracy)**
+  - **Độ nhạy (Recall), độ đặc hiệu (Precision), F1-score**
+- Đánh giá độ phức tạp của mô hình và khả năng triển khai thực tế.
+
+## 🧾 Dataset
+
+- **Nguồn dữ liệu**: Tập dữ liệu: [Kaggle] Spam Mails Dataset (enron-1 folder of Spam Dataset). Tại: https://www.kaggle.com/datasets/venky73/spam-mails-dataset/data.
+- Tiền xử lý: Làm sạch văn bản, loại bỏ stopwords, vector hóa với TF-IDF hoặc Word Embedding (Word2Vec, GloVe).
+
+📈 Kết quả (Tóm tắt)
+
+Mô hình	Accuracy	Precision	Recall	F1-Score	
+FNN	    0.98	    ----	    ----	  0.98	
+CNN    	0.97	    ----	    ---- 	  ----
+RNN	    0.87	    ----	    ----	  0.92
+LSTM	  0.89	    ----	    ----	  0.92
+
+📚 Thư viện sử dụng
+TensorFlow
+Scikit-learn
+
+Pandas, NumPy, Matplotlib, Seaborn
+
+📄 Báo cáo
+Báo cáo chi tiết về phương pháp, cấu trúc mô hình, quy trình huấn luyện và đánh giá được trình bày trong file report.pdf.
+
+👨‍💻 Tác giả
+Hà Vũ Khang – @KanVux
+Sinh viên ngành Công nghệ thông tin.
+
+📬 Liên hệ
+Mọi góp ý, thắc mắc hoặc đề xuất cải tiến, vui lòng liên hệ qua:
+
+Email: havukhang6879@gmail.com
